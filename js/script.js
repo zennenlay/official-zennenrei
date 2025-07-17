@@ -44,3 +44,11 @@ in 5 誰かの衝動により、集団の中に座組がうまれる`;
     }
   });
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const overlay = document.createElement("div");
+  overlay.className = "transition-overlay";
+  overlay.style.color = getComputedStyle(document.body).backgroundColor;
+  document.body.appendChild(overlay);
+});
