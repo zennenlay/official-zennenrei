@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const text = `【19世紀のゆりかごから25世紀の墓場まで】
 from 陰 _ 遊 _ テロ‪(¬_¬)ﾉ
 本団体の公演は全年齢対象で、喘粘齢対象💥
-in 5 誰かの衝動により、集団の中に座組がうまれる`;
+in ? 誰かの衝動により、集団の中に座組がうまれる`;
   let index = 0;
   const typingElement = document.getElementById("typing-text");
 

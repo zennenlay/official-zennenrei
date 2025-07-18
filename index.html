@@ -7,14 +7,22 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="css/style.css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&amp;display=swap" rel="stylesheet"/>
-</head>
+<style>
+    body {
+        background-image: url('images/S__33587202.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-attachment: fixed;
+    }
+    </style></head>
 <body class="home-page">
 <nav class="quiet-nav-horizontal">
 <ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="news.html">News</a></li>
 <li><a href="dailypicture.html">Performance</a></li>
-<li><a href="index.html#gallery">Gallery</a></li>
+<li><a href="gallery.html" onclick="event.preventDefault(); location.href=\'gallery.html\';">Gallery</a></li>
 <li></li>
 <li><a href="about.html">About</a></li>
 <li><a href="contact.html">Contact</a></li>
@@ -112,47 +120,38 @@
 <div class="site-title"><a href="index.html">喘粘齢</a></div>
 <main class="content">
 <section class="intro">
-
-<div class="typing-text" id="typing-text"></div>
+<div class="typing-text" id="typing-text" style="margin-top: 200px;"></div>
 </section>
 <section class="newsflash">
-<h2>速報</h2>
+<h2 style="color: black; text-shadow: 1px 1px 3px #ff00ff;">速報</h2>
 <div class="ticker">
-<p>2025.08.01 - 次回公演「真夜中の梟」企画進行中！</p>
+<p style="color: white !important;"> 2025.11 - オムニバス公演企画進行中！</p>
 </div>
 </section>
 <section class="works-section">
-<h2>過去作</h2>
+<h2 style="color: black; text-shadow: 1px 1px 3px #ff00ff;">過去作</h2>
 <div class="works-year">
-<h3>2024</h3>
+<h3>？</h3>
 <div class="works-grid">
-<a class="work-card" data-title="三姉妹" href="works/three-sisters.html" style="background-image: url('images/three-sisters.jpg');"></a>
-</div>
-</div>
-<div class="works-year">
-<h3>2023</h3>
-<div class="works-grid">
-<a class="work-card" data-title="光の肉体" href="works/body-of-light.html" style="background-image: url('images/body-of-light.jpg');"></a>
+<a class="work-card" data-title="順次追加予定" href="works/three-sisters.html" style="background-image: url('images/three-sisters.jpg');"></a>
 </div>
 </div>
 <div class="works-year">
-<h3>2022</h3>
+<h3>？</h3>
 <div class="works-grid">
-<a class="work-card" data-title="天声の地層" href="works/layer-of-voice.html" style="background-image: url('images/layer-of-voice.jpg');"></a>
+<a class="work-card" data-title="順次追加予定" href="works/body-of-light.html" style="background-image: url('images/body-of-light.jpg');"></a>
+</div>
+</div>
+<div class="works-year">
+<h3>？</h3>
+<div class="works-grid">
+<a class="work-card" data-title="順次追加予定" href="works/layer-of-voice.html" style="background-image: url('images/layer-of-voice.jpg');"></a>
 </div>
 </div>
 </section>
-<section class="gallery">
-<h2>ギャラリー</h2>
-<div class="gallery-grid">
-<a class="gallery-item" data-title="三姉妹" href="works/three-sisters.html" style="background-image: url('images/three-sisters.jpg');"></a>
-<a class="gallery-item" data-title="光の肉体" href="works/body-of-light.html" style="background-image: url('images/body-of-light.jpg');"></a>
-<a class="gallery-item" data-title="天声の地層" href="works/layer-of-voice.html" style="background-image: url('images/layer-of-voice.jpg');"></a>
-</div>
-</section>
+
 </main>
-<footer>
-<p>© 2025 喘粘齢</p>
-</footer>
-<script src="js/script.js"></script></body>
+
+<script src="js/script.js"></script><footer style="color: black; font-weight: 600; text-align: center; padding: 1rem; font-family: '游ゴシック体', 'Yu Gothic', sans-serif;">© 2025 喘粘齢</footer>
+</body>
 </html>
